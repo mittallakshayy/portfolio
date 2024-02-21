@@ -4,3 +4,7 @@ Let's connect.
 
 Ideas/ 
 Three.js 
+Calender access 
+Request Meeting
+Resume
+Projects
