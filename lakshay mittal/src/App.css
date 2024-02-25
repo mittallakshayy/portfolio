@@ -1,0 +1,26 @@
+.sketch {
+  width: 35rem;
+  clip-path: circle(40.125% at 50% 35%);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background-color: #0076ff;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+div h1 {
+  width: 31.25rem;
+  text-align: center;
+  color: white;
+}
+.heading {
+  text-align: center;
+}
