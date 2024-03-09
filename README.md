@@ -8,3 +8,4 @@ Calender access
 Request Meeting
 Resume
 Projects
+HealthShare: Master's Project
