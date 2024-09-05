@@ -10,3 +10,4 @@ Resume
 Projects
 HealthShare: Master's Project
 Three.js Template
+Update Resume on the Portfolio
