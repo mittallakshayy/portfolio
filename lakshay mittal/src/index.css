@@ -3,42 +3,11 @@
   font-weight: 600;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff;
+  color: white;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-size: 4em;
-  line-height: 0.5;
-  font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.profession {
-  font-size: 1.25em;
-  font-family: "Oleo Script", system-ui;
-  line-height: 0.9;
-}
-.favicon link {
-  clip-path: circle(40.125% at 50% 35%);
-}
-.anton-regular {
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.abril-fatface-regular {
-  font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
 }

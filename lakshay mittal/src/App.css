@@ -1,26 +1,66 @@
-.sketch {
-  width: 35rem;
-  clip-path: circle(40.125% at 50% 35%);
-}
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap-reverse;
-  background-color: #0076ff;
+  justify-content: space-around;
+  height: 100vh;
 }
-.image {
+.socialsContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  gap: 60px;
 }
-div h1 {
-  width: 31.25rem;
+.intro-text {
+  order: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 10rem;
   text-align: center;
-  color: white;
 }
-.heading {
-  text-align: center;
+.model {
+  order: 1;
+}
+.intro-text h1 {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+.intro-text p {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: rgb(163, 163, 163);
+}
+.intro-text .gradient-text {
+  background-image: linear-gradient(
+    -45deg,
+    rgb(177, 8, 189),
+    rgb(88, 186, 255)
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+@media (min-width: 1296px) {
+  .container {
+    flex-direction: row-reverse;
+
+    justify-content: center;
+    gap: 40px;
+  }
+  .intro-text h1 {
+    font-size: 4rem;
+  }
+  .intro-text p {
+    font-size: 2rem;
+  }
+
+  .model {
+    /* width: 50%; */
+    height: auto;
+  }
 }

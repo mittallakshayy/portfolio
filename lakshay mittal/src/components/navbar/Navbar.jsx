@@ -4,13 +4,13 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navName">
-        <div className="logo-text">Lakshay Mital</div>
+        <div className="logo-text">Lakshay Mittal</div>
       </div>
 
       <button>About</button>
-      <button>Blog</button>
-      <button>Resume</button>
+      <button>Experience</button>
       <button>Projects</button>
+      <button>Resume</button>
       <button>Contact</button>
     </nav>
   );
