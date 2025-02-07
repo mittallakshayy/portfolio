@@ -13,3 +13,4 @@ Three.js Template
 Update Resume on the Portfolio
 Design Change
 Make A FIGMA PROTOTYPE
+Upgrading to Next.js
